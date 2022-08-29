@@ -1,0 +1,7 @@
+{
+  "name": "sidebarrefresh",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
