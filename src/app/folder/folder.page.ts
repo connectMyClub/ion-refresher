@@ -13,6 +13,19 @@ export class FolderPage implements OnInit {
 
   ngOnInit() {
     this.folder = this.activatedRoute.snapshot.paramMap.get('id');
+
+    console.log(this.folder)
   }
 
+
+  doRefresh(event){
+
+    setTimeout(() => {
+      console.log('Async operation has ended');
+      event.target.complete();
+    }, 2000);
+
+  }
+
+  
 }
